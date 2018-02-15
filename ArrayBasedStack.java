@@ -1,7 +1,7 @@
 public class ArrayBasedStack<T> implements StackInterface<T>{
    private T[] data;
    private int topOfStack;
-   private final int INITIAL_CAPACITY = 5;
+   private static final int INITIAL_CAPACITY = 5;
    private boolean initialized;
    
    public ArrayBasedStack(int size) throws IllegalArgumentException{
